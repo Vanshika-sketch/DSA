@@ -1,21 +1,22 @@
 #include<iostream>
 using namespace std;
-                                  // Function with parameters(input)
-void printNumber(int n) {
-    cout<< n;
-}
-    // n : parameter
 
-void printHello(){
-    cout<<"\nHello World";
+
+//function with return value
+
+int add(int a, int b){
+    return a+b;
 }
+
+
+
 int main(){
 
-    int x = 4;
-    printNumber(x ); //x is an argument,  value of x is copied into n
-
-    printHello(); //function call
+    int sum=add(4,4);
+    cout<<sum;
 
 
-    return 0 ;
+
+
+    return 0;
 }
